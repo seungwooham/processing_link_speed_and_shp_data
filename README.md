@@ -14,6 +14,7 @@ Preprocessing the Speed and Geographical Data based on the SHP file
   - The link ID in the link speed data and SHP file do not match.
   - Link ID in speed data is given as the "Service ID" of a link.
   - Link ID in the SHP file is given as the "Standard ID" of a link.
+  - "Service ID" is composed with 3~4 "Standard ID"s
 - Fortunately, there is a match table given by the government.
   - Still, there are some unmatched errors.
   - Also, I want to create the connection info of urban link network in Seoul
