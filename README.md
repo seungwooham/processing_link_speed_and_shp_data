@@ -14,10 +14,10 @@ Preprocessing the Speed and Geographical Data based on the SHP file
   - SHP file that contains the geometry of each link. (distinguished by link ID)
 - But there is a problem.
   - The link ID in the link speed data and SHP file do not match.
-  - Link ID in speed data is given as the "Service ID" of a link.
-  - Link ID in the SHP file is given as the "Standard ID" of a link.
+  - Link ID in speed data is given as the "Service ID" of a link. (https://topis.seoul.go.kr/refRoom/openRefRoom_1.do)
+  - Link ID in the SHP file is given as the "Standard ID" of a link. (https://www.its.go.kr/nodelink/nodelinkRef)
   - "Service ID" is composed with 3~4 "Standard ID"s
-- Fortunately, there is a match table given by the government.
+- Fortunately, there is a match table given by the government. (https://topis.seoul.go.kr/refRoom/openRefRoom_3_3.do)
   - Still, there are some unmatched errors.
   - Also, I want to create the connection info of urban link network in Seoul
 
