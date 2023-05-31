@@ -1,7 +1,7 @@
 # Processing the Link and SHP data
 Preprocessing the Speed and Geographical Data based on the SHP file
 
-
+![alt text](seoul_urban_network.png)
 
 ## 1. Terminology
 - Urban network: Road network inside the city
